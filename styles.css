@@ -1,0 +1,119 @@
+/* Fuente y estilo base */
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  background-color: #fdfaf6;
+  color: #3e2723;
+}
+
+/* ENCABEZADO */
+header {
+  background-color: #5d4037;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* NAVEGACIÓN */
+nav {
+  background-color: #4e342e;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc80;
+}
+
+/* SECCIONES */
+section {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TEXTO UTILITARIO */
+.texto-centro {
+  text-align: center;
+}
+
+.ancho-medio {
+  max-width: 800px;
+  margin: auto;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+/* CATÁLOGO */
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  background: #fff8f5;
+  border: 1px solid #d7ccc8;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.producto:hover {
+  transform: scale(1.03);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6d4c41;
+}
+
+/* BOTÓN WHATSAPP */
+.btn-whatsapp {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #25d366;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe57;
+}
+
+/* PIE DE PÁGINA */
+footer {
+  background-color: #3e2723;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
