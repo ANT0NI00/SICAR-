@@ -9,7 +9,7 @@ body {
 /* ENCABEZADO CON FONDO DE MADERA */
 header {
   position: relative;
-  background: url("FONDO MADERA.png") no-repeat center center/cover;
+  background: url("img fondo/FONDO MADERA.png")no-repeat center center/cover;
   height: 40vh;  /* ← aquí reducimos la altura */
   display: flex;
   align-items: center;
@@ -149,5 +149,6 @@ footer {
   padding: 20px;
   margin-top: 30px;
 }
+
 
 
