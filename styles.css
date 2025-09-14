@@ -9,7 +9,7 @@ body {
 /* ENCABEZADO CON FONDO DE MADERA */
 header {
   position: relative;
-  background: url("C:/Users/anton/OneDrive/Imágenes/Escritorio/PAGINA SICARU/FONDO MADERA.png") no-repeat center center/cover;
+  background: url("FONDO MADERA") no-repeat center center/cover;
   height: 40vh;  /* ← aquí reducimos la altura */
   display: flex;
   align-items: center;
@@ -149,3 +149,4 @@ footer {
   padding: 20px;
   margin-top: 30px;
 }
+
