@@ -169,3 +169,31 @@ footer {
   padding: 20px;
   margin-top: 30px;
 }
+
+/* OPCIONES DE COLORES (IMÁGENES EXTRA) */
+.colores {
+  display: none; /* ocultas por defecto */
+  margin-top: 10px;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.colores img {
+  width: 80px;
+  height: auto;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.colores img:hover {
+  border: 2px solid #6d4c41;
+  transform: scale(1.05);
+}
+
+/* Cuando JS active esta clase, se muestran */
+.colores.mostrar {
+  display: flex;
+}
